@@ -39,7 +39,6 @@ a{
     text-decoration: none;
     color: inherit;
 }
-
 #menu a:hover{
     border-bottom: 2px solid;
     border-color: rgb(0, 72, 255);
@@ -51,4 +50,51 @@ a{
 #hero-image{
     height: 600px; width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 3s;
+    animation-direction: reverse;
+}
+#hero-outer{
+    position: relative;
+    height: 600px; width: 100%;
+    overflow: hidden;
+}
+
+#cover-text, #cover-text h2{
+    color: aliceblue;
+}
+
+#cover-text{
+    background-color: rgba(133, 201, 99, .7);
+    height: 200px;
+    width: 300px;
+    font-size: 150%;
+    padding: 20px;
+    
+    font-family: Oswald , sans-serif;
+
+    bottom: 50px;
+    right: 50px;
+    position: absolute;
+}
+
+header{
+    background-color: darkorange;
+}
+footer{
+    background-color: blanchedalmond;
+}
+#sec2{
+    background-color: aquamarine;
+}
+#sec3{
+    background-color: chartreuse;
+}
+@keyframes hero-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
