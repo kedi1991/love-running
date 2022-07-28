@@ -84,12 +84,7 @@ header{
 footer{
     background-color: blanchedalmond;
 }
-#sec2{
-    background-color: aquamarine;
-}
-#sec3{
-    background-color: chartreuse;
-}
+
 @keyframes hero-zoom{
     from{
         transform: scale(1);
@@ -97,4 +92,49 @@ footer{
     to{
         transform: scale(1.2);
     }
+}
+
+#right-about{
+
+    width: 33%;
+    float: right;
+}
+#left-about{
+
+    width: 33%;
+    float: left;
+}
+#center-about{
+    background-color: chocolate;
+    width: 33%;
+    margin: 0 auto;
+}
+#club-ethos{
+    height: 600px;
+}
+.left-about-heading{
+    padding-bottom: 50px;
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear:both;
+}
+.right-about-heading{
+    padding-bottom: 50px;
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear:both;
+}
+hr{
+    border-bottom: black solid 1px;
+    margin-top: 10px;
+}
+
+.right-about-heading h2{
+    text-align: right;
+}
+
+.right-about-heading p{
+    text-align: right;
 }
