@@ -9,7 +9,7 @@
 body{
     font-family: Lato , Arial;
     font-weight: 400;
-    color: #701970;
+    color: #332033;
 }
 
 h1, h2{
@@ -81,9 +81,7 @@ a{
 header{
     background-color: darkorange;
 }
-footer{
-    background-color: blanchedalmond;
-}
+
 
 @keyframes hero-zoom{
     from{
@@ -168,4 +166,18 @@ hr{
     background-size: cover;
     background-position: center;
     overflow: hidden;
+}
+#times div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    border: #fafafa solid 2px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+}
+#times h2{
+    color: #fafafa;
 }
