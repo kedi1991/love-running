@@ -194,3 +194,37 @@ footer ul{
 footer ul li i {
     font-size: 180%;
 }
+
+#photosss{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0;
+}
+#photosss img {
+    width: 100%;
+}
+
+@media screen and (max-width:1200px){
+    #club-ethos{
+        width: 60%;
+        clear: both;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #left-about{
+        width: 100%;
+        clear: both;
+    }
+    #right-about{
+        width:100%;
+        clear: both;
+    
+    }
+    #center-about{
+        clear: both;
+    }
+    hr{
+        display: none;
+    }
+}
