@@ -78,10 +78,6 @@ a{
     position: absolute;
 }
 
-header{
-    background-color: darkorange;
-}
-
 
 @keyframes hero-zoom{
     from{
@@ -139,11 +135,13 @@ hr{
 
 #center-image{
     border: #701970 solid 1px;
+    text-align: center;
     padding: 30px;
     border-radius: 50%;
     width: 280px;
     height: 280px;
     margin: 0 auto;
+    
 }
 
 #welcome{
@@ -226,5 +224,31 @@ footer ul li i {
     }
     hr{
         display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    header nav {
+        clear:both;
+        float:left;
+    }
+    .right-about-heading{
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    .left-about-heading{
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+    }
+    #times div{
+        width: 100%;
+    }
+    .right-about-heading p, .left-about-heading p {
+        text-align: center;
+    }
+    #photosss{
+        column-count: 2;
     }
 }
